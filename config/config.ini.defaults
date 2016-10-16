@@ -1,0 +1,10 @@
+[certs]
+ssl_key = cert/<FILE>.ley
+ssl_certificate = cert/<FILE>.crt
+ssl_bundle = cert/<FILE>.crt
+
+[web_server]
+client_path = /<PATH>
+https_port = 10444
+routes[]=help
+routes[]=welcome
